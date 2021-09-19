@@ -33,7 +33,7 @@ $(document).click((e)=>{
 })
 
 function timeLeft() {
-    let timer = 60
+    let timer = 30
     let b = setInterval(()=>{ 
         if(timer<=0){
         clearInterval(b)
