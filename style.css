@@ -1,0 +1,57 @@
+body{
+    background-color: #cfaa9e;
+    margin: 0;
+    padding: 0;
+}
+.title{   
+    margin: 50px auto;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.time-left{
+    margin: 100px 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.game-wrapper{
+    width: 500px;
+    height: 400px;   
+    background-color:#De7e73;
+    margin:80px auto;
+
+}
+.hole-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    cursor: url('./fist1.png') 10 10,auto;
+}
+.hole{
+    background-color: #ed9282;
+    height: 100px;
+    width: 120px;
+    margin: 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hole-in{
+    width: 90%;
+    height: 80%;
+    background-color: #d8cac2;
+    border-radius: 50%;
+}
+.target{
+    height: 130%;
+    width: 90%;
+    margin-top: -25px;
+    border-radius: 50%; 
+    display: none; 
+}
+
+
